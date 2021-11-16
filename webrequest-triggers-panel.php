@@ -24,7 +24,7 @@ $triggers = explode(',', @$_GET['triggers']);
           <button class="btn btn-primary" data-trigger="<?=$trigger?>">RUN</button> <?=$trigger?>
         </div>
       </div>
-    <?php endfor; ?>
+    <?php endforeach; ?>
   </div>
 </div>
 <script>
