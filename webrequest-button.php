@@ -1,11 +1,13 @@
 <?php
 
-header("Content-type: image/png");
+//header("Content-type: image/png");
 $string = "Visit webrequest.cc";
 $img = imagecreate(50, 100);
 $px     = (imagesx($img) - 7.5 * strlen($string)) / 2;
 
+echo "AA";
 
+/*
 $x1 = 0;
 $y1 = 0;
 $x2 = 50;
@@ -26,3 +28,5 @@ imagefilledrectangle($img, $x2-$r, $y1+$r, $x2, $y2-$r, $color);
 //imagestring($im, 3, $px, 9, $string, $orange);
 imagepng($img);
 imagedestroy($img);
+
+*/
