@@ -2,7 +2,7 @@
 
 header("Content-type: image/png");
 $string = "Visit webrequest.cc";
-$img = imagecreate(500, 500);
+$img = imagecreate(200, 100);
 $px = (imagesx($img) - 7.5 * strlen($string)) / 2;
 
 
