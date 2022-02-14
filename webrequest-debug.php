@@ -1,7 +1,7 @@
 <?php
 
-echo "Request = ";
-print_r($_REQUEST);
+echo "Post = ";
+print_r($_POST);
 
 echo "Headers = ";
 print_r(getallheaders());
