@@ -9,5 +9,5 @@ print_r(getallheaders());
 echo "Server = ";
 print_r($_SERVER);
 
-echo "Body = "";
+echo "Body = ";
 print_r(file_get_contents('php://input'));
